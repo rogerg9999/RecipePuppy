@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RecipePuppy</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="noRecipes">Looks like you don\'t have recipes</string>
+</resources>

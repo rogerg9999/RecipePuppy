@@ -1,0 +1,69 @@
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_detail"
+    style="?android:attr/textAppearanceLarge"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textIsSelectable="true"
+        tools:context="com.blacklift.recipepuppy.ui.ItemDetailFragment"
+        style="@style/TextAppearance.AppCompat.Headline"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:text="Tortilla"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textIsSelectable="true"
+        tools:context="com.blacklift.recipepuppy.ui.ItemDetailFragment"
+        style="@style/TextAppearance.AppCompat.Headline"
+        android:textStyle="bold"
+        android:text="Ingredients"
+        />
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textIsSelectable="true"
+        tools:context="com.blacklift.recipepuppy.ui.ItemDetailFragment"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:text="Tortilla"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textIsSelectable="true"
+        tools:context="com.blacklift.recipepuppy.ui.ItemDetailFragment"
+        style="@style/TextAppearance.AppCompat.Headline"
+        android:textStyle="bold"
+        android:text="Web Reference"
+        />
+
+    <TextView
+        android:id="@+id/url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textIsSelectable="true"
+        tools:context="com.blacklift.recipepuppy.ui.ItemDetailFragment"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:text="Tortilla"
+        />
+
+</LinearLayout>
+
+
